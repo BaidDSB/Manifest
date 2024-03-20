@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Simulate Search",
+    "version": "1.5",
+    "description":"Simple bing searching extension",
+    "permissions": [
+        "tabs",
+        "https://www.bing.com/*",
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    }
+}

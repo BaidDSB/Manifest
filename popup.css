@@ -1,0 +1,88 @@
+body {
+  background-color: #15191d;
+  width: 240px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #bfbfbf;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #bfbfbf;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  select, input[type=number] {
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  #preceise,#random{
+    color: #bfbfbf;
+    
+    
+  }
+  
+  button[type=submit] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    /* height: 100%;
+    width: 100%; */
+    padding: 10px 18px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  table {
+    width: 70%;
+  }
+  
+  td {
+    height: 35px;
+  }
+  button[type=submit]:hover {
+    background-color: #005a9e;
+  }
+  button[type=button] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    /* padding: 10px 18px; */
+    padding: 10px;
+    /* height: 100%;
+    width: 100%; */
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type=button]:hover {
+    background-color: #005a9e;
+  }
+  p{
+    color: #a50000;
+    font-size: 10px;
+  }
+  .check{
+    font-size: 14px; 
+  }
+  .check input[type=number] {
+    padding: 2px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 30px; /* Adjust the width to your desired value */
+  }
+  

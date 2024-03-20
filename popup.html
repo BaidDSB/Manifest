@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bing Searcher</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Bing Searcher</h1>
+    <form id="search-form">
+      <label for="num-searches">Number of searches:</label> <br>
+      <label>D:</label><input
+        type="number"
+        id="num-searchesD"
+        name="num-searchesD"
+        min="1"
+        max="50"
+        value="32"
+        required
+      />
+      <label>M:</label><input
+        type="number"
+        id="num-searchesM"
+        name="num-searchesM"
+        min="1"
+        max="50"
+        value="22"
+        required
+      /> <br>
+      <label for="search-type">Search type:</label> <br>
+      <select id="search-type" name="search-type" required>
+        <option value="desktopmobile">Desktop & Mobile</option>
+        <option value="desktop">Desktop Only</option>
+        <option value="mobile">Mobile Only</option>
+      </select> <br>
+      <br>
+      <button type="submit">Start</button>
+      <button type="button" id="stop-button">Stop</button>
+      <button type="button" id="rewards-button">Rewards</button>
+      <label id="remaining-mobile">Remaining Mobile Searches:</label>
+      <label id="remaining-desktop">Remaining Desktop Searches:</label>
+      <p>Notice: Search anything or goto <b>bing.com</b> for this to work</p>
+    </form>
+  </body>
+</html>
